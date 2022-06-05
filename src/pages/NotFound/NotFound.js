@@ -5,7 +5,7 @@ const NotFound = () => {
     return (
         <div className='flex justify-center my-3'>
             <Link to="/">
-                <img className='rounded-xl' src="https://cdn.dribbble.com/users/1676373/screenshots/4177728/404.gif" alt="" />
+                <img className='rounded-xl' src="https://www.yogaleela.org/wp-content/uploads/2021/09/CodePen-404-Page.gif" alt="" />
             </Link>
         </div>
     );
