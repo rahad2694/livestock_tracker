@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from './Banner';
 import Banner_2 from './Banner_2';
 import Banner_3_appoinment from './Banner_3_appoinment';
+import Carousel from './Carousel';
 import ContactBanner from './ContactBanner';
 import PatientReview from './PatientReview';
 import Services from './Services';
@@ -10,6 +11,7 @@ import Services from './Services';
 const Home = () => {
     return (
         <div>
+            <Carousel></Carousel>
             <Banner></Banner>
             <div className='lg:my-32 my-18'>
                 <h1 className='mt-6 text-center text-primary font-bold'>OUR SERVICES</h1>
