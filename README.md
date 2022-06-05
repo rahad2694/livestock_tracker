@@ -10,7 +10,7 @@ For Live Site Link [Click Here](https://tools-manufacturer-a873a.web.app/).
 - Hamburger Menu is added in mobile version.
 - 404 Not Found route is added.
 - React Router used to navigate to routes.
-- Footer
+- Navigable Carousel added.
 
 ### Frameworks / Libraries used in Front-End:
 
