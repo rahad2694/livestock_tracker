@@ -8,16 +8,16 @@ import IndividualReview from './IndividualReview';
 
 const PatientReview = () => {
     const reviewData = [
-        { id: 1, text: 'It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content', img: image1, name: 'Winson Herry', address: 'California' },
-        { id: 2, text: 'It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content', img: image2, name: 'Valina Terresa', address: 'New York' },
-        { id: 3, text: 'It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content', img: image3, name: 'Natalia Gorchev', address: 'Miami' },
+        { id: 1, text: 'The Best Device along with a helpful customer support team! Happy purchase! Highly Recommended!', img: image1, name: 'Winson Herry', address: 'Mecklenburg, Germany' },
+        { id: 2, text: 'They were so helpful that, they sent an expert in my house to set up the devices and help me using the softwares!', img: image2, name: 'Valina Terresa', address: 'Bavaria, Germany' },
+        { id: 3, text: 'The Best in their category! Such a professional team! They provide help at wide range of locations!', img: image3, name: 'Natalia Gorchev', address: 'Texas, USA' },
     ]
     return (
         <section className='lg:px-12 mx-4 px-4 mt-20 mb-32'>
             <div className='flex justify-between mt-6 mb-10'>
                 <div>
                     <h1 className='text-secondary font-semibold my-2'>Testimonial</h1>
-                    <h1 className="text-3xl text-accent">What Our Patients Says</h1>
+                    <h1 className="text-3xl text-accent">What Our Customers Says</h1>
                 </div>
                 <div className='flex justify-end'>
                     <img className='w-2/4' src={quote} alt="" />

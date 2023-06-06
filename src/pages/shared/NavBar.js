@@ -5,7 +5,7 @@ import logo from '../../assets/images/logo.png'
 const NavBar = () => {
     const menuList = <>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/appointment">Appointment</Link></li>
+        <li><Link to="/appointment">Purchase</Link></li>
         <li><Link to="/reviews">Reviews</Link></li>
         <li><Link to="/contact">Contact</Link></li>
         <li><Link to="/about">About</Link></li>
@@ -25,7 +25,7 @@ const NavBar = () => {
                 <Link to='/' className='w-10'>
                     <img src={logo} alt="" />
                 </Link>
-                <Link to='/' className="btn btn-ghost normal-case text-xl">Doctors Portal</Link>
+                <Link to='/' className="btn btn-ghost normal-case text-xl">LiveTrack Technologies TM</Link>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">

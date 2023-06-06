@@ -11,7 +11,7 @@ const Cards = () => {
                 </div>
                 <div>
                     <h1 className='text-xl font-bold'>Opening Hours</h1>
-                    <p>Everyday from 10 am to 5 pm</p>
+                    <p>Mon-Fri from 10 am to 5 pm</p>
                 </div>
             </div>
             <div className='rounded-lg bg-accent text-white lg:flex lg:px-6 lg:py-12 py-6'>
@@ -20,7 +20,7 @@ const Cards = () => {
                 </div>
                 <div>
                     <h1 className='text-xl font-bold'>Visit Our Location</h1>
-                    <p>Mohammadpur Dhaka, 1200</p>
+                    <p>BT-7, Berliner Tor, Hamburg 20537</p>
                 </div>
             </div>
             <div className='rounded-lg bg-gradient-to-r from-secondary to-primary text-white lg:flex lg:px-6 lg:py-12 py-6'>
@@ -29,7 +29,7 @@ const Cards = () => {
                 </div>
                 <div>
                     <h1 className='text-xl font-bold'>Contact Us Now</h1>
-                    <p>+880 1675508829</p>
+                    <p>+491 464656 65665</p>
                 </div>
             </div>
         </div>

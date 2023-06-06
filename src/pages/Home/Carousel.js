@@ -3,39 +3,27 @@ import React from 'react';
 const Carousel = () => {
     return (
 
-        // https://i.ibb.co/YfzWjW5/carousel1.jpg
-        // https://i.ibb.co/5Kch6ww/carousel2.jpg
-        // https://i.ibb.co/djfW1D1/carousel3.jpg
-        // https://i.ibb.co/3FsV5hS/carousel4.jpg
-
         <div className=''>
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
-                    <img alt='' src="https://i.ibb.co/YfzWjW5/carousel1.jpg" class="w-full" />
+                    <img alt='' src="https://img.freepik.com/free-vector/farmer-analyzing-data-eco-farming-isolated-flat-illustration_74855-14018.jpg?w=1060&t=st=1686069801~exp=1686070401~hmac=0a733b5ef6f6e5b08284d5d7ff818ac13a8302607c808731fb5506517f29b7aa" class="w-full h-screen" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide4" class="btn btn-circle">❮</a>
                         <a href="#slide2" class="btn btn-circle">❯</a>
                     </div>
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
-                    <img alt='' src="https://i.ibb.co/3FsV5hS/carousel4.jpg" class="w-full" />
+                    <img alt='' src="https://img.freepik.com/premium-photo/asian-woman-selfie_73899-834.jpg?w=1060" class="w-full h-screen" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide1" class="btn btn-circle">❮</a>
                         <a href="#slide3" class="btn btn-circle">❯</a>
                     </div>
                 </div>
                 <div id="slide3" class="carousel-item relative w-full">
-                    <img alt='' src="https://i.ibb.co/djfW1D1/carousel3.jpg" class="w-full" />
+                    <img alt='' src="https://img.freepik.com/free-photo/farmer-cowshed-with-pitchfork-cleaning-up_1303-30779.jpg?w=1060&t=st=1686069636~exp=1686070236~hmac=c36bc1186b3f55d9324bf44a8508b7bda5027ee96e52d4c8164ee449d1e0cfb6" class="w-full h-screen" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide2" class="btn btn-circle">❮</a>
                         <a href="#slide4" class="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div id="slide4" class="carousel-item relative w-full">
-                    <img alt='' src="https://i.ibb.co/5Kch6ww/carousel2.jpg" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide3" class="btn btn-circle">❮</a>
-                        <a href="#slide1" class="btn btn-circle">❯</a>
                     </div>
                 </div>
             </div>
