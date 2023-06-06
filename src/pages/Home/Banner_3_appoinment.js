@@ -1,5 +1,4 @@
 import React from 'react';
-import doctorLogo from './../../assets/images/doctor-small.png'
 
 const Banner_3_appoinment = () => {
     return (
